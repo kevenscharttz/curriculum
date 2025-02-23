@@ -46,6 +46,7 @@ body {
 #occupation {
         border-right: 2px solid black;
         animation: blink 0.75s infinite;
+        color: rgb(0, 195, 255);
 }
     
 @keyframes blink {
@@ -96,6 +97,7 @@ hr {
     display: flex;
     justify-content: center;
     gap: 30px;
+    padding: 60px 0px;
 }
 
 .biographic__content {
@@ -139,3 +141,44 @@ hr {
     list-style-type: none;
     font-family: "Open Sans", serif;
 }
+
+.skills-container {
+    padding: 60px 0px;
+}
+
+.skills__title {
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    color: #e4e4e4;
+    text-align: center;
+}
+
+.skills__text {
+    font-family: "Open Sans", serif;
+    color: #ffffff;
+    margin: 40px 0px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.skills__bars {
+    display: flex;
+    justify-content: center;
+}
+
+.skills {
+    padding: 0px 12px;
+}
+
+.skills__bars__text {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    color: #e4e4e4;
+    font-family: 'Poppins', sans-serif;
+}
+
+progress {
+    width: 400px;
+}
+
