@@ -155,11 +155,11 @@ hr {
 }
 
 .skills__text {
-    font-family: "Open Sans", serif;
     color: #ffffff;
-    margin: 40px 0px;
+    font-family: "Open Sans", serif;
+    margin-bottom: 16px;
+    line-height: 25px;
     text-align: center;
-    font-size: 18px;
 }
 
 .skills__bars {
@@ -213,9 +213,60 @@ progress::-moz-progress-bar {
 }
 
 .sumary__text {
-    font-family: "Open Sans", serif;
     color: #ffffff;
-    margin: 40px 0px;
+    font-family: "Open Sans", serif;
+    margin-bottom: 16px;
+    line-height: 25px;
     text-align: center;
-    font-size: 18px;
+    margin-bottom: 30px;
 }
+
+.sumary__content {
+    display: flex;
+    justify-content: center;
+}
+
+.sumary__column {
+    width: 400px;
+    padding: 0px 15px;
+}
+
+.title__info {
+    font-size: 26px;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    margin: 20px 0px;
+    font-weight: 600;
+}
+
+.title__text {
+    color: #00b4cc;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.date__info {
+    margin-bottom: 10px;
+    background-color: #cfcfcf;
+    color: #000000;
+    padding: 5px 15px;
+    font-family: "Raleway", sans-serif;
+}
+
+.description__info {
+    font-style: italic;
+    color: #ffffff;
+    font-family: "Open Sans", serif;
+    margin-top: 20px;
+}
+
+.info__item:before {
+    content: '\2022';
+    margin: 0 2px;
+    color: #ffffff;
+    margin-right: 10px;
+   }
+
