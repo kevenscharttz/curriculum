@@ -123,6 +123,7 @@ hr {
     color: #ffffff;
     font-family: "Open Sans", serif;
     margin-bottom: 16px;
+    line-height: 25px;
 }
 
 .info-container {
@@ -198,4 +199,23 @@ progress::-webkit-progress-value {
 progress::-moz-progress-bar {
     background-color: #0066cc;
     border-radius: 0; 
+}
+
+.sumary-container {
+    padding: 60px 0px;
+}
+
+.sumary__title {
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    color: #e4e4e4;
+    text-align: center;
+}
+
+.sumary__text {
+    font-family: "Open Sans", serif;
+    color: #ffffff;
+    margin: 40px 0px;
+    text-align: center;
+    font-size: 18px;
 }
