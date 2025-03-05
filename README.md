@@ -9,7 +9,6 @@ Este é um projeto desenvolvido para uma atividade da faculdade, onde foi criado
 
 ## Funcionalidades 🎨⚡📢
 - Apresentação das informações pessoais, experiências e formação acadêmica
-- Design responsivo para adaptação em diferentes dispositivos
 - Efeitos visuais e interatividade com JavaScript
 
 ## Como Executar o Projeto 📂🔧💡
